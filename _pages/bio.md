@@ -37,7 +37,7 @@ causal inference. I am also interested in understanding the collective behavior 
 institutional settings, the institutional mechanisms that promote cooperative behavior in
 networks, or in contrast lead to unequal outcomes for different groups.
 
-In my previous life, I used to work at Google New York City as a software engineer from
+In a previous life, I worked at Google New York City as a software engineer from
 2011 to 2015. At Google, I worked on several products around the AdWords ad auction. We
 analyzed the ad auction dynamics and developed relevant suggestions for advertisers.
 
