@@ -23,7 +23,7 @@ I am a PhD candidate in [Social and Engineering Systems
 ](https://idss.mit.edu/academics/ses_doc/){:target="\_blank"} program at [MIT
 IDSS](https://idss.mit.edu/){:target="\_blank"}, under supervision of [Prof.
 Pentland](https://www.media.mit.edu/people/sandy/overview/){:target="\_blank"} and [Prof.
-Eckles](https://www.deaneckles.com/){:target="\_blank"}.  I am also receiving a secondary
+Eckles](https://www.deaneckles.com/){:target="\_blank"}.  I am also receiving a second
 PhD in [Statistics](https://stat.mit.edu/academics/idps/){:target="\_blank"} from the
 [Statistics and Data Science Center](https://stat.mit.edu/){:target="\_blank"} at MIT.  I
 received my Bachelor's and Master's degrees in Computer Science both from the University
