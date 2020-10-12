@@ -30,12 +30,12 @@ received my Bachelor's and Master's degrees in Computer Science both from the Un
 of Michigan - Ann Arbor.
 
 
-I am a computational social scientist and my PhD research focus is on micro-level structural factors, such as networks,
-that contribute to unequal distribution of resources or information. I use methods from
-network science, statistics, experiment design and causal inference. I am also interested
-in understanding the collective behavior in institutional settings, the institutional
-mechanisms that promote cooperative behavior in networks, or in contrast lead to unequal
-outcomes for different groups.
+My PhD research is focused on micro-level structural factors, such as network structure,
+that contribute to unequal distribution of resources or information. As a computational
+social scientist, I use methods from network science, statistics, experiment design and
+causal inference. I am also interested in understanding the collective behavior in
+institutional settings, the institutional mechanisms that promote cooperative behavior in
+networks, or in contrast lead to unequal outcomes for different groups.
 
 In my previous life, I used to work at Google New York City as a software engineer from
 2011 to 2015. At Google, I worked on several products around the AdWords ad auction. We
