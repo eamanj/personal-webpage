@@ -69,6 +69,13 @@ a, table.table a {
       text-decoration: none;
     }
   }
+  .custom {
+    color: var(--global-theme-color);
+    font-size: inherit;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 
@@ -291,6 +298,15 @@ footer.sticky-bottom {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  h1.cat {
+    color: var(--global-text-color);
+    border-top: 1px solid $grey-color-light;
+    font-size: 1.4rem;
+    text-align: left;
+    padding-top: 1rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
   h2 {
     margin-bottom: 1rem;
     span {
@@ -311,6 +327,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
+      font-size: 0.9rem;
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;
