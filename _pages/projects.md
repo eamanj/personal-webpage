@@ -2,7 +2,7 @@
 layout: page
 title: projects
 permalink: /projects/
-description: This page is not complete. It will soon display a collection of my most recent projects. In the meantime, please take a look at my CV.
+description: This page is not complete. It will soon display my past projects too.
 nav: true
 ---
 
