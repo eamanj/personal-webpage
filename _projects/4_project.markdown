@@ -1,8 +1,10 @@
 ---
 layout: page
 title: project 4
-description: another without an image
+description: another without an image but a redirect
 img:
+redirect: https://unsplash.com
+type: past
 importance: 3
 ---
 
