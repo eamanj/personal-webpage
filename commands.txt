@@ -1,0 +1,6 @@
+# to serve the page locally
+bundle exec jekyll serve
+
+# to deploy the gh-pages branch online
+# make sure all changes are committed beforehand
+./bin/deploy
