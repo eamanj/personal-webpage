@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2016-01-15 07:59:00-0400
+date: 2021-01-11 07:59:00-0400
 inline: true
 ---
-
-A simple inline announcement with Markdown emoji! :sparkles: :smile:
+I got accepted into the university of Chicago [Rising Stars in Data Science workshop](https://cdac.uchicago.edu/rising-stars/)
+and presented my thesis research.

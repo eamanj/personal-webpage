@@ -100,6 +100,7 @@ blockquote {
     margin-bottom: 5px;
     margin-top: 5px;
     font-family: monospace;
+    font-size: 1.05rem;
     p {
       display: inline-block;
       margin: 0;
@@ -109,7 +110,7 @@ blockquote {
 
 @media (min-width: 576px) {
   .profile {
-    width: 30%;
+    width: 34%;
     .address {
       p { display: block; }
     }
@@ -124,6 +125,13 @@ blockquote {
     &:hover {
       color: var(--global-theme-color);
       text-decoration: none;
+    }
+  }
+  .custom {
+    color: var(--global-theme-color);
+    font-size: inherit;
+    &:hover {
+      text-decoration: underline;
     }
   }
 }
@@ -358,12 +366,16 @@ footer.sticky-bottom {
 // Projects
 
 .projects {
-  a {
-    text-decoration: none;
-
-    &:hover {
-      .card-title {
-        color: var(--global-theme-color);
+  .grid-item {
+    width: 341px;
+    margin: 10px;
+    a {
+      color: black;
+      text-decoration: none;
+      &:hover {
+        .card-title {
+          color: var(--global-theme-color);
+        }
       }
     }
   }
@@ -411,6 +423,15 @@ footer.sticky-bottom {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+  h1.cat {
+    color: var(--global-text-color);
+    border-top: 1px solid $grey-color-light;
+    font-size: 1.4rem;
+    text-align: left;
+    padding-top: 1rem;
+    margin-top: 1.5em;
+    margin-bottom: 0.75em;
+  }
   h2 {
     margin-bottom: 1rem;
     span {
@@ -431,6 +452,7 @@ footer.sticky-bottom {
     margin-top: 0;
 
     li {
+      font-size: 0.9rem;
       margin-bottom: 1rem;
       .abbr {
         height: 2rem;

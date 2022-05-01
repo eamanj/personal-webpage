@@ -1,24 +1,45 @@
 ---
 layout: about
-title: about
+title: bio
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Social Scientistis and Statistician at <a href="https://statistics.berkeley.edu/">UC-Berkeley</a> from <a href="https://idss.mit.edu/">MIT</a>
 
 profile:
   align: right
   image: prof_pic.jpg
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Post-doctoral Associate at UC-Berkeley Statistics </a></p>
+    <p>Email: eaman [at] berkeley [dot] edu </p>
 
-news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: true  									# includes a list of news items
+selected_papers: false 				# includes a list of papers marked as "selected={true}"
+social: true  								# includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I will be a postdoctoral associate at UC Berkeley department of Statistics starting
+January 2022.  I received a dual PhD in [Social and Engineering Systems
+](https://idss.mit.edu/academics/ses_doc/){:target="\_blank"}
+and [Statistics](https://stat.mit.edu/academics/idps/){:target="\_blank"}
+from [IDSS](https://idss.mit.edu/){:target="\_blank"} and
+the [Statistics and Data Science Center](https://stat.mit.edu/){:target="\_blank"}
+at MIT, under the supervision of [Prof.  Pentland](https://www.media.mit.edu/people/sandy/overview/){:target="\_blank"}
+and [Prof. Eckles](https://www.deaneckles.com/){:target="\_blank"}. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
+My PhD research is focused on micro-level structural factors, such as network structure,
+that contribute to unequal distribution of resources or information. As a computational
+social scientist, I use methods from network science, statistics, experiment design and
+causal inference. I am also interested in understanding the collective behavior in
+institutional settings, the institutional mechanisms that promote cooperative behavior in
+networks, or in contrast lead to unequal outcomes for different groups.
+
+In a previous life, I worked at Google New York City as a software engineer from
+2011 to 2015. At Google, I worked on several products around the AdWords ad auction. We
+analyzed the ad auction dynamics and developed relevant suggestions for advertisers.
+I received my Bachelor's and Master's degrees in Computer Science both from the
+University of Michigan - Ann Arbor.
+
+
+[//]: <> Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+
