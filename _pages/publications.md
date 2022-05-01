@@ -2,12 +2,10 @@
 layout: page
 permalink: /publications/
 title: publications
-description: For full list, visit my <a href="https://scholar.google.com/citations?user=84Cbsz0AAAAJ&hl=en" class="custom">scholar page</a> 
+description: For full list, visit my <a href='https://scholar.google.com/citations?user=84Cbsz0AAAAJ&hl=en' class='custom'>scholar page</a> 
 categories: [Working papers, Refereed, Lightly refereed]
-years: [1956, 1950, 1935, 1905]
 nav: true
 ---
-
 <div class="publications">
 
 {% for cat in page.categories %}
@@ -18,6 +16,7 @@ nav: true
 </div>
 
 <!--
+years: [1956, 1950, 1935, 1905] # put this above in config
 For ordering of papers by year.
 <div class="publications">
 
@@ -28,4 +27,3 @@ For ordering of papers by year.
 
 </div>
 -->
-
