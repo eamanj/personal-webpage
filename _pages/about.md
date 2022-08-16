@@ -2,7 +2,7 @@
 layout: about
 title: Bio
 permalink: /
-subtitle: Social Scientistis and Statistician at <a href="https://statistics.berkeley.edu/">UC-Berkeley</a> from <a href="https://idss.mit.edu/">MIT</a>
+subtitle: Social Scientist and Statistician at <a href="https://statistics.berkeley.edu/">UC-Berkeley</a> from <a href="https://idss.mit.edu/">MIT</a>
 
 profile:
   align: right
