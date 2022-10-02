@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Reducing Hate Speech on Social Media
-img: /assets/img/brokerage_network.jpg
+description: A randomized experiment on the Twitter Network of Nigerian users comparing different interventions. In collaboration with the World bank.
 importance: 4
 category: Current
 ---
