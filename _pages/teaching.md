@@ -17,5 +17,5 @@ background. The course is a comprehensive survey course of statistical theory an
 <b>Spring 2022:</b> <a
 href="https://classes.berkeley.edu/content/2022-spring-stat-2-001-lec-001">Introduction to Statistics</a>, Undergraduate level at UC-Berkeley
 <br />
-An introductory course to statistics for students without a match background. Course
+An introductory course to statistics for students without a math background. Course
 covers population and variables, standard measures of location, spread and association, normal approximation, regression, probability and sampling, interval estimation and significance tests.
