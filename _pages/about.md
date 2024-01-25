@@ -17,7 +17,7 @@ social: true  								# includes social icons at the bottom of the page
 ---
 
 
-I am an assistant professor of Information Technologies at University of Maryland Business
+I am an assistant professor of Information Systems at University of Maryland Business
 school. Previously, I was a postdoctoral associate at UC Berkeley department of Statistics
 until January 2024.  I received a dual PhD in [Social and Engineering Systems
 ](https://idss.mit.edu/academics/ses_doc/){:target="\_blank"}
