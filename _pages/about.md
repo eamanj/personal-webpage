@@ -24,8 +24,7 @@ until January 2024.  I received a dual PhD in [Social and Engineering Systems
 and [Statistics](https://stat.mit.edu/academics/idps/){:target="\_blank"}
 from [IDSS](https://idss.mit.edu/){:target="\_blank"} and
 the [Statistics and Data Science Center](https://stat.mit.edu/){:target="\_blank"}
-at MIT, under the supervision of [Prof.  Pentland](https://www.media.mit.edu/people/sandy/overview/){:target="\_blank"}
-and [Prof. Eckles](https://www.deaneckles.com/){:target="\_blank"}. 
+at MIT.
 
 
 My PhD research is focused on micro-level structural factors, such as network structure,
