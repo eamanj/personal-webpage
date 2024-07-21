@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Eaman  Jahani | blog</title>
+    <title>Eaman  Jahani | Projects</title>
     <meta name="author" content="Eaman  Jahani" />
-    <meta name="description" content="Eaman Jahani's personal webpage
-" />
+    <meta name="description" content="list of current and past projects" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +29,7 @@
     <!-- Styles -->
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eamanjahani.com/blog/">
+    <link rel="canonical" href="https://eamanjahani.com/projects/">
     
     <!-- Dark Mode -->
     
@@ -70,15 +69,16 @@
               
 
               <!-- Other pages -->
-              <li class="nav-item ">
-                <a class="nav-link" href="/projects/">Projects</a>
+              <li class="nav-item active">
+                <a class="nav-link" href="/projects/">Projects<span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/publications/">Publications</a>
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">Teaching</a>
-              </li><!-- CV Manually added here by Eaman -->
+              </li>
+<!-- CV Manually added here by Eaman -->
               <li class="nav-item">
                 <a class="nav-link" href="/assets/pdf/CV.pdf" target="_blank">
                   CV
@@ -86,8 +86,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,204 +101,134 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>daily ramblings of Eaman</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Projects</h1>
+            <p class="post-description">list of current and past projects</p>
+          </header>
 
+          <article>
+            <!-- pages/projects.md -->
+<div class="projects">
+  <!-- Display categorized projects -->
+  <h2 class="category">Current</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/unequal_diffusion/">
+      <div class="card hoverable">
+<figure>
 
-  <ul class="post-list">
-    
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/brokerage_network-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/brokerage_network-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/brokerage_network-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/brokerage_network.jpg" alt="project thumbnail">
 
-    
-    
-    
-    
+  </picture>
 
-    <li>
-      <h3>
-        
-          
-            <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-          
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
+</figure>
 
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta">
-        7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/twitter/">a post with twitter</a>
-        
-      </h3>
-      <p>an example of a blog post with twitter</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Unequal Diffusion in Networks</h2>
+          <p class="card-text">How brokerage can reduce inter-group diffusion in networks</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
 </div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/experiment/">
+      <div class="card hoverable">
+<figure>
+
+  <picture>
+    <source media="(max-width: 480px)" srcset="/assets/img/experiment-480.webp"></source>
+    <source media="(max-width: 800px)" srcset="/assets/img/experiment-800.webp"></source>
+    <source media="(max-width: 1400px)" srcset="/assets/img/experiment-1400.webp"></source>
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/experiment.jpg" alt="project thumbnail">
+
+  </picture>
+
+</figure>
+
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Network Effects on Unequal Outcomes</h2>
+          <p class="card-text">An experimental sutdy on how networks can exacerbate inter-group differences</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/facebook/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Characterization of Strong and Long-Range Ties</h2>
+          <p class="card-text">How frequent are the ties that are both structurally diverse and high-bandwidth? Who holds them? What are their economic implications?</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/hate_speech/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Reducing Hate Speech on Social Media</h2>
+          <p class="card-text">A randomized experiment on the Twitter Network of Nigerian users comparing different interventions. In collaboration with the World bank.</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+<!-- _includes/projects.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item">
+  <a href="/projects/misinformation/">
+      <div class="card hoverable">
+        <div class="card-body">
+          <h2 class="card-title text-lowercase">Debunking Misinformation through Social Ties</h2>
+          <p class="card-text">When and how can social ties debunk false claims circulating in messaging apps?</p>
+          <div class="row ml-1 mr-1 p-0">
+          </div>
+        </div>
+      </div>
+    </a>
+</div>
+  </div>
+  <h2 class="category">Past</h2>
+  <!-- Generate cards for each project -->
+  <div class="grid">
+  </div>
+</div>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2024 Eaman  Jahani. Last updated: July 21, 2024.
+        © Copyright 2024 Eaman  Jahani. Last updated: July 21, 2024.
       </div>
     </footer>
 

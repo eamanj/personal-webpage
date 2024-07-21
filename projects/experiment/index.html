@@ -9,10 +9,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Eaman  Jahani | blog</title>
+    <title>Eaman  Jahani | Network Effects on Unequal Outcomes</title>
     <meta name="author" content="Eaman  Jahani" />
-    <meta name="description" content="Eaman Jahani's personal webpage
-" />
+    <meta name="description" content="An experimental sutdy on how networks can exacerbate inter-group differences" />
 
 
     <!-- Bootstrap & MDB -->
@@ -30,7 +29,7 @@
     <!-- Styles -->
     
     <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="canonical" href="https://eamanjahani.com/blog/">
+    <link rel="canonical" href="https://eamanjahani.com/projects/experiment/">
     
     <!-- Dark Mode -->
     
@@ -78,7 +77,8 @@
               </li>
               <li class="nav-item ">
                 <a class="nav-link" href="/teaching/">Teaching</a>
-              </li><!-- CV Manually added here by Eaman -->
+              </li>
+<!-- CV Manually added here by Eaman -->
               <li class="nav-item">
                 <a class="nav-link" href="/assets/pdf/CV.pdf" target="_blank">
                   CV
@@ -86,8 +86,8 @@
               </li>
 
               <!-- Toogle theme mode -->
-              <div class = "toggle-container">
-                <a id = "light-toggle">
+              <div class="toggle-container">
+                <a id="light-toggle">
                   <i class="fas fa-moon"></i>
                   <i class="fas fa-sun"></i>
                 </a>
@@ -101,204 +101,76 @@
 
     <!-- Content -->
     <div class="container mt-5">
-      <div class="post">
+      <!-- page.html -->
+        <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2>daily ramblings of Eaman</h2>
-  </div>
+          <header class="post-header">
+            <h1 class="post-title">Network Effects on Unequal Outcomes</h1>
+            <p class="post-description">An experimental sutdy on how networks can exacerbate inter-group differences</p>
+          </header>
 
+          <article>
+            <p>In this project, we study the network effects on unequal outcomes within a controlled lab
+environment. In particular, we investigate the conditions under which networks can
+exacerbate existing inter-group differences, hence widening any gaps that might exist
+betwen two groups. To this end, we develop an online lab experiment to study the network
+mechanisms that widen inter-group differences and yield different returns on social
+capital to different groups.</p>
 
-  <ul class="post-list">
-    
+<p>We model the network effects on utility in a context with repeated diffusion of a resource (originating from random
+sources according to a known distribution) access to which increases one’s utility. The
+repeated nature of this diffusion process could amplify individual or group differences in
+utility over time. Our goal is to characterize the factors that affect the final
+inter-group utility differences. In particular, assume there are two groups in the network
+(rich/poor). Members of group 1 and 2 have \(u_1\) and \(u_2\) expected utility of
+receiving the resource on their own in each round (\(u_1 &gt; u_2\)). Within each round,
+nodes can receive extra utility from their neighbors if they also receive the resource
+(For example, the resource can diffuse to a limited number of members until it loses its
+value). Adding the individual and network components of the utility, members of each group
+will have an average total utility of \(a_1\) and \(a_2\). We will investigate the
+necessary conditions for the network mechanism to result in the following comparison:
+\(\frac{a_1}{a_2} &gt; \frac{u_1}{u_2}\). In other words, what network structures, utility
+functions, and group compositions will amplify the the inter-group advantages to be
+greater than exogenous individual differences? The extent of this difference will greatly
+depend on the network structure, in particular homophily and brokerage. 
+We will also investigate the effect of other factors such as rivalrous
+vs. non-rivalrous diffusion.</p>
 
-    
-    
-    
-    
+<p>We implement the above setup in an online randomized lab experiment in a manner similar to
+[1].  We recruit individuals to play an online collaborative game in which they have to
+find and dig gold mines and in the process can pass information to their neighbors
+according to the network structure.  The amount of gold they discover during the game,
+either by themselves or from their contacts, will determine their final compensation, akin
+to their utility.  By randomizing the network structure, and composition of groups with
+low and high initial advantage, we aim to generate the processes that lead to unequal
+distribution of opportunities to a group, beyond what’s expected by their individual
+differences.</p>
 
-    <li>
-      <h3>
-        
-          
-            <a class="post-title" href="/assets/pdf/example_pdf.pdf">a post with redirect</a>
-          
-        
-      </h3>
-      <p>you can also redirect to assets like pdf</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/diagrams/">a post with diagrams</a>
-        
-      </h3>
-      <p>an example of a blog post with diagrams</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        July 4, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2021/distill/">a distill-style blog post</a>
-        
-      </h3>
-      <p>an example of a distill-style blog post and main elements</p>
-      <p class="post-meta">
-        7 min read &nbsp; &middot; &nbsp;
-        May 22, 2021
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2021">
-          <i class="fas fa-calendar fa-sm"></i> 2021 </a>
-
-          
-
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/github-metadata/">a post with github metadata</a>
-        
-      </h3>
-      <p>a quick run down on accessing github metadata.</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-
-    
-    
-    
-    
-
-    <li>
-      <h3>
-        
-          <a class="post-title" href="/blog/2020/twitter/">a post with twitter</a>
-        
-      </h3>
-      <p>an example of a blog post with twitter</p>
-      <p class="post-meta">
-        1 min read &nbsp; &middot; &nbsp;
-        September 28, 2020
-      </p>
-      <p class="post-tags">
-        <a href="/blog/2020">
-          <i class="fas fa-calendar fa-sm"></i> 2020 </a>
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/tag/formatting">
-              <i class="fas fa-hashtag fa-sm"></i> formatting</a> &nbsp;
-              
-          
-
-          
-          &nbsp; &middot; &nbsp;
-            
-            <a href="/blog/category/sample-posts">
-              <i class="fas fa-tag fa-sm"></i> sample-posts</a> &nbsp;
-              
-            <a href="/blog/category/external-services">
-              <i class="fas fa-tag fa-sm"></i> external-services</a> &nbsp;
-              
-          
-    </p>
-    </li>
-
-    
-  </ul>
-
-  <nav aria-label="Blog page naviation">
-  <ul class="pagination pagination-lg justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="" tabindex="-1" aria-disabled="">Newer</a>
-    </li><li class="page-item active"><a class="page-link" href="/blog/index.html" title="blog">1</a></li>
-      <li class="page-item "><a class="page-link" href="/blog/page/2/index.html" title="blog - page 2">2</a></li>
-      <li class="page-item ">
-      <a class="page-link" href="/blog/page/2/">Older</a>
-    </li>
-  </ul>
-</nav>
-
+<div class="row justify-content-center">
+    <div class="col-sm-11 mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/experiment.jpg" alt="" title="onlin experiment">
+    </div>
 </div>
+<div class="caption">
+Figure 1. A screenshot of the multi-player game where the player has received information
+about the structure of the map from their contacts and has to decide where to dig for
+gold.
+</div>
+
+<h2>References</h2>
+<p>[1] Winter Mason and Duncan J Watts. Collaborative learning in networks. Pro- ceedings of the
+National Academy of Sciences, 109(3):764–769, 2012.</p>
+
+          </article>
+
+        </div>
 
     </div>
 
     <!-- Footer -->    
     <footer class="fixed-bottom">
       <div class="container mt-0">
-        &copy; Copyright 2024 Eaman  Jahani. Last updated: July 21, 2024.
+        © Copyright 2024 Eaman  Jahani. Last updated: July 21, 2024.
       </div>
     </footer>
 
