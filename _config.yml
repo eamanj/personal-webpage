@@ -6,7 +6,7 @@ title: blank                  # the website title (if blank, full name will be u
 first_name: Eaman
 middle_name: 
 last_name: Jahani
-email: eaman@berkeley.edu
+email: eaman@umd.edu
 description: >                # the ">" symbol means to ignore newlines until "footer_text:"
   Eaman Jahani's personal webpage
 
@@ -60,8 +60,8 @@ github_username: eamanj       # your GitHub user name
 gitlab_username:              # your GitLab user name
 twitter_username: eamanjahani # your Twitter handle
 linkedin_username:            # your LinkedIn user name
-scholar_userid: eamanj        # your Google Scholar ID
-orcid_id:                     # your ORCID ID
+scholar_userid: 84Cbsz0AAAAJ  # your Google Scholar ID
+orcid_id: 0000-0003-3879-4275 # your ORCID ID
 medium_username:              # your Medium username
 quora_username:               # your Quora username
 publons_id:                   # your ID on Publons
