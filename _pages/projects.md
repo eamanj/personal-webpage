@@ -3,7 +3,7 @@ layout: page
 title: Projects
 permalink: /projects/
 description: list of current and past projects
-nav: true
+nav: false
 display_categories: [Current, Past]
 horizontal: false
 ---
