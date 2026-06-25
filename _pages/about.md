@@ -27,12 +27,12 @@ the [Statistics and Data Science Center](https://stat.mit.edu/){:target="\_blank
 at MIT.
 
 
-My PhD research is focused on micro-level structural factors, such as network structure,
-that contribute to unequal distribution of resources or information. As a computational
-social scientist, I use methods from network science, statistics, experiment design and
-causal inference. I am also interested in understanding the collective behavior in
-institutional settings, the institutional mechanisms that promote cooperative behavior in
-networks, or in contrast lead to unequal outcomes for different groups.
+As a computational social scientist, he employs methodologies from network science, statistics,
+experiment design and causal inference to investigate three broad research themes: evaluating the
+impact of social norm interventions through network experiments, investigating structural factors
+that drive collective behavior and unequal distribution of resource in organizations, and studying
+the impact of AI in business, particularly in the context of human-AI collaboration and its
+influence on creativity and productivity.
 
 In a previous life, I worked at Google New York City as a software engineer from
 2011 to 2015. At Google, I worked on several products around the AdWords ad auction. We

@@ -1,26 +1,33 @@
-@article{prompt_engineering,
-  title={As Generative Models Improve, We Must Adapt Our Prompts},
-  author={Eaman Jahani, Benjamin Manning, Joe Zhang, Hong-Yi TuYe, Mohammed Alsobay, Christos Nicolaides, Siddharth Suri, David Holtz},
+@article{interference_mediation,
+  title={Causal Inference under Endogenous Network Interference: A Design-Based Mediation Framework},
+  author={Eaman Jahani},
   abstract={
-  In an online experiment with N = 1893 participants, we collected and analyzed over 18,000 prompts and 300,000 images to explore whether prompting needs to adapt as generative AI models evolve. Participants were randomly assigned to use DALL-E 2 or  its advanced successor DALL-E 3. Each participant wrote prompts to reproduce a target image as closely as possible across 10 consecutive attempts. We find that participants using DALL-E 3 outperformed those using DALL-E 2, with the performance gap driven equally by: (1) the increased technical capabilities of DALL-E 3, and (2) endogenous changes in participants' prompting in response to these increased capabilities. Furthermore, participants across all skill levels learned to adapt their prompts to new models quickly, with minimal training. These findings suggest that as AI models continue to improve, firms will need to maintain and update their technical infrastructure and prompts. However, these adjustments will not be prohibitively complex, reducing the need for costly prompt engineering expertise. The implications for businesses are substantial, as the ability to easily adapt prompts may democratize access to AI’s benefits, mitigating concerns about inequality in the AI-driven economy.
-	},
-	category={Working papers},
-  html={https://arxiv.org/abs/2407.14333},
+  Standard methodologies for causal inference under network interference typically rely on the  assumption that the social network mediating peer influence is measured pre-treatment and  remains static. However, in many practical settings, ranging from public health interventions  to digital platform optimizations, the treatment itself endogenously alters the network  topology. In such scenarios, using the pre-treatment network snapshot to define exposure conditions leads to severe exposure misspecification and biased causal estimates.
+  This paper investigates the inferential challenges posed by endogenous, treatment-induced network evolution and introduces a design-based mediation framework to recover meaningful causal estimands under network interference.
+  We first formally characterize the bias in standard Horvitz-Thompson estimators that arises  when researchers utilize pre-treatment networks to define target exposures. We prove that  this bias is driven by the probability of misclassification and the outcome  discrepancy between valid and invalid exposure states.
+  To resolve this, we introduce a design-based mediation perspective that conceptualizes the post-treatment network as a  high-dimensional mediator between the randomization design and observed outcomes. 
+  This framework orthogonally decomposes the global Average Treatment Effect (ATE) into  two distinct causal pathways: the Natural Direct Effect (NDE), which captures effects  operating through the treatment while holding the network distribution fixed, and the  Natural Indirect Effect (NIE), which captures effects operating strictly through  treatment-induced shifts in the network structure.
+  We establish the conditions for valid inference on these mediated estimands and develop unbiased inverse-probability weighted (IPW) estimators. We further prove their consistency and asymptotic normality under sparse dependence and derive conservative variance estimators to facilitate valid inference despite the structural unobservability of joint counterfactual propensities.
+  Analytic evaluations and  Monte Carlo simulations demonstrate that our proposed estimators effectively eliminate  finite-sample bias and maintain valid nominal coverage, providing the methodological framework for disentangling the direct efficacy of an intervention from indirect and structural channels in dynamic environments.
+  },
+  category={Working papers}
 }
 
+
 @article{network_hatespeech,
-  title={Network interventions to increase social cohesion},
-  author={Eaman Jahani, Blas Kolic, Manuel Tonneau, Hause Lin, Niyati Malhotra, Ibrahim Farouq, Victor Orozco, Samuel Fraiberger},
+  title={Celebrity messages reduce online hate and limit its spread},
+  author={Eaman Jahani and Blas Kolic and Manuel Tonneau and Hause Lin and Daniel Barkoczi and Edwin Ikhuoria and Victor Orozco and Samuel Fraiberger},
   abstract={
-	As social media platforms become an increasingly inseparable part of our social structure, there are growing concerns about the prevalence of hate content on these platforms. Several social media companies have embarked on content moderation, through activities such as content removal or user bans, as a way to combat online hate speech. Existing evidence as to whether these punitive measures are effective at reducing hate speech are mixed. We describe a network-based experiment designed to measure the effectiveness of empathy-based counterspeech and celebrity messaging in curbing hateful language within the entire Nigerian social media landscape. The experiment design follows graph cluster randomization which accounts for interference between units. The design notably allows us to identify both the spillover and direct treatment effects with Horvitz-Thompson and Hajek estimators. The star-like structure and degree distribution in the network pose considerable challenges to achieving precise estimations. Subsequently we discuss several techniques that we implemented to reduce the variance of ATE, including a weighted exposure model, difference estimation and construction of more cohesive clusters.
-	},
-	category={Working papers}
+  Online hate spreads rapidly, yet little is known about whether preventive and scalable strategies can curb it. We conducted the largest randomized controlled trial of hate speech prevention to date: a 20-week messaging campaign on X in Nigeria targeting ethnic hate. 73,136 users who had previously engaged with hate speech were randomly assigned to receive prosocial video messages from Nigerian celebrities. The campaign reduced hate content by 2.5% to 5.5% during treatment, with about 75% of the reduction persisting over the following four months. Reaching a larger share of a user's audience reduced amplification of that user's hate posts among both treated and untreated users, cutting hate reposts by over 50% for the most exposed accounts. Scalable messaging can limit online hate without removing content.
+  },
+  category={Working papers},
+  html={https://arxiv.org/abs/2601.04134}
 }
 
 
 @article{unequal_diffusion,
   title={Network Structure of Unequal Diffusion},
-  author={Eaman Jahani, Dean Eckles, and Alex Pentland},
+  author={Eaman Jahani and Dean Eckles and Alex Pentland},
 	abstract={
 	We develop a theoretical network model that captures the network structure of unequal
 	diffusion.  First, we argue that homophily alone does not fully
@@ -43,7 +50,7 @@
 }
 
 
-@article{long_ties_fundraising,
+article{long_ties_fundraising,
   title={Tie Strength and Length in Social Capital: Evidence from Charitable Fundraising},
   author={Eaman Jahani, Michael Bailey, and Dean Eckles},
 	abstract={
@@ -62,7 +69,7 @@
 }
 
 
-@article{inequality_experiment,
+article{inequality_experiment,
   title={Rivalrous Resource Sharing in Networks can Exacerbate Existing Inequalities},
   author={Eaman Jahani, Dean Eckles},
 	abstract={
@@ -80,6 +87,17 @@
 	},
 	category={Working papers},
 	pdf={rivalrous_resource_sharing_in_networks.pdf},
+}
+
+@article{prompt_engineering,
+  author = {Eaman Jahani and Benjamin Manning and Joe Zhang and Hong-Yi TuYe and Mohammed Alsobay and Christos Nicolaides and Siddharth Suri and David Holtz},
+  title = {Prompt Adaptation as a Dynamic Complement in Generative AI Systems},
+  journal = {Information Systems Research},
+  year = {2026},
+  doi = {10.1287/isre.2025.2029},
+  abstract = { Do users automatically benefit when generative AI models improve, or does realizing those gains require changing how they interact with the technology? We ran two preregistered experiments with 3,750 participants submitting nearly 37,000 prompts across two versions of OpenAI’s DALL-E to find out. The answer depends critically on task structure. In a bounded task with a clear objective, replicating a specific target image, roughly half of the performance gain came from the model itself, and half came from users naturally adjusting their prompts. In an open-ended creative task, designing logos for hypothetical organizations, nearly all of the improvement was attributable to the model alone. We then asked whether automated prompt rewriting, a feature embedded in many commercial AI products, could substitute for this user adaptation. It could not: rewriting modestly helped in the creative task but substantially hurt performance in the replication task, where precise user control mattered most. For organizations deploying AI in precision-oriented workflows, our results point to an underappreciated priority: investing in how people learn to interact with a model may matter as much as the model itself. },
+  category={Refereed},
+  html={https://pubsonline.informs.org/doi/10.1287/isre.2025.2029}
 }
 
 
@@ -121,7 +139,7 @@
 
 @article{yuan2023implications,
   title={Implications of COVID-19 vaccination heterogeneity in mobility networks},
-  author={Yuan Yuan,Eaman Jahani, Shengjia Zhao, Yong-Yeol Ahn, Alex Pentland},
+  author={Yuan Yuan and Eaman Jahani and Shengjia Zhao and Yong-Yeol Ahn and Alex Pentland},
   journal={Communications Physics},
   volume={6},
   number={1},
@@ -150,8 +168,7 @@
   title={An Online experiment during the 2020 US--Iran crisis shows that exposure to common enemies can increase political polarization},
   url={https://doi.org/10.1038/s41598-022-23673-0},
   publisher={Nature Publishing Group},
-  author={Jahani, Eaman* and Gallagher, Natalie M* and Merhout, Friedolin* and Cavalli,
-    Nicolo* and Guilbeault, Douglas* and Leng, Yan* and Bail, Christopher A*},
+  author={Eaman Jahani and Natalie M. Gallagher and Friedolin Merhout and Nicolo Cavalli and Douglas Guilbeault and Yan Leng and Christopher A. Bail},
   year={2022},
   month={July},
   journal={Scientific Reports},
@@ -183,7 +200,7 @@
 }
 
 @article{misinformation_whatsapp,
-  author = {Pasquetto, Irene V. and Jahani, Eaman and Atreja, Shubham and Baum, Matthew},
+  author = {Irene V. Pasquetto and Eaman Jahani and Shubham Atreja and Matthew Baum},
   title = {Social Debunking of Misinformation on WhatsApp: The Case for Strong and In-Group Ties},
   year = {2022},
   issue_date = {April 2022},
@@ -204,7 +221,7 @@
 }
 
 @article{jahani2018scamcoin,
-	author = {Jahani, Eaman, and Krafft, Peter, and Suhara, Yoshiko, and Moro, Esteban, and Pentland, Alex},
+	author = {Eaman Jahani and Eaman and Krafft, Peter and Suhara, Yoshiko and Moro, Esteban and Pentland, Alex},
 	title = {ScamCoins, S*** Posters, and the Search for the Next Bitcoin<sup>TM</sup>: Collective Sensemaking in Cryptocurrency Discussions},
 	year = {2018},
 	issue_date = {November 2018},
@@ -227,8 +244,7 @@
 
 @article{jahani2017improving,
   title={Improving official statistics in emerging markets using machine learning and mobile phone data},
-  author={Jahani, Eaman, and Sunds{\o}y, Pal, and Bjelland, Johannes, and Bengtsson,
-    Linus, and Pentland, Alex, and de Montjoye, Yves Alexandre},
+  author={Eaman Jahani and Pal Sunds{\o}y and Johannes Bjelland and Linus Bengtsson and Alex Pentland and Yves Alexandre de Montjoye},
   journal={EPJ Data Science},
   volume={6},
   number={1},
@@ -272,7 +288,7 @@
 
 
 @InProceedings{jahani2017differential,
-	author="Jahani, Eaman, and Saint-Jacques, Guillaume, and Sunds{\o}y, Pal, and Bjelland, Johannes, and Moro, Esteban, and Pentland, Alex",
+	author={Eaman Jahani and Guillaume Saint-Jacques and Pal Sunds{\o}y and Johannes Bjelland and Esteban Moro and Alex Pentland},
 	title="Differential Network Effects on Economic Outcomes: A Structural Perspective",
 	booktitle="Social Informatics.",
 	year="2017",
